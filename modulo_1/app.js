@@ -88,7 +88,7 @@ const tarifaPorHora = 12000;
 
 const salarioBase = horasTrabajadas * tarifaPorHora;
 
-// Calcular la bonificación del 10%
+//programa que calcula el salario semanal de un trabajador, considerando horas trabajadas y tarifa por hora. Agregar una bonificación del 10% cuando el salario base supere $500000
 let bonificacion = 0;
 
 if (salarioBase > 500000) {
@@ -135,7 +135,7 @@ if (edad3 >= 18 && tieneEntrada) {
     console.log("No puede ingresar al evento.");
 }
 
-
+// Programa que calcula el valor total a pagar por una compra, aplicando descuentos según el monto de la compra.
 
 
 const entrada = "350000";
